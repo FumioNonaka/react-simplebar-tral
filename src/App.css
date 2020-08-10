@@ -1,3 +1,21 @@
+#header {
+  position: fixed;
+  top: 0;
+}
+#left-column {
+  /* overflow: scroll; */
+  overflow: auto;
+  min-width: 200px;
+  /* max-height: 500px; */
+}
+#left-column ul {
+  list-style-type: none;
+}
+#left-column li {
+  font-size: large;
+}
+
+/*
 .App {
   text-align: center;
 }
@@ -36,3 +54,4 @@
     transform: rotate(360deg);
   }
 }
+*/
